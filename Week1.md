@@ -1,4 +1,5 @@
 ### Week 1
+---
 **Objectives**
 - Review Course Outline
 - Review Assessments and Weightings
