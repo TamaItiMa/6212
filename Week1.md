@@ -1,5 +1,5 @@
-# Week 1
-## Objectives
+### Week 1
+**Objectives**
 - Review Course Outline
 - Review Assessments and Weightings
 - Recall why IT professionals need to store and manage data
