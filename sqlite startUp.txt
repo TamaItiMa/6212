@@ -1,0 +1,64 @@
+COMP.6212 First Day SQL Exercise
+--------------------------------
+
+In this exercise we create a table to store customer list.
+We add data
+We use this data to practice the basic db functions of add edit delete sort search filter.
+You will need to speak SQL if you want to work with data, feel free to learn as little (CRUD, AEDSSF and table relationships) or as much as you want!
+I recommend saving any scripts that work to a txt file.
+
+We will use sqlite3 fiddle in the broswer to run the commands but you can use any sqlite3 instance you want.
+
+------ Some commands to get started ---
+
+CREATE TABLE customers(id, cust_name, cust_surname);
+
+.tables --(this is SQLite3 command not SQL - starts with dot doesn't end with semi colon) --
+
+INSERT INTO customers values (1, 'Andy ','Haden');
+
+SELECT rowid, id, cust_name FROM customers;
+
+.mode table
+
+INSERT INTO customers VALUES (2, 'Brian', 'Willians');
+
+INSERT INTO customers VALUES (3, 'Sid', 'Going'), (4, 'Robbie', 'Deans'),(5, 'Mack','Herewini');
+
+-----
+
+-- Now add edit delete sort search filter  on your customer table, you will need to find the sql command for each of these --
+-- Working with the machine is self - marking - the machine gives you feedback! --
+-- You need an SQL reference to look up SQL commands - w3shools is one, we will collect a list of others.
+
+----
+Lets go again with a new table
+Create a table to store information about customer dogs,  dog_size = small, medium, larg
+(dog_id, dog_name, dog_breed, dog_size, dog_notes, owner_fname, owner_sname, owner_mobile, owner_email)
+
+
+-- Lets have someone in the class organise a data list of 10 records, paste a couple of records each into the chat, someone can collate. 
+
+-- Now add edit delete sort search filter, on your dogs table ---
+
+--Activity Check --
+-- Using SQL commands and SQLite3 I can now 
+---Create a table
+---Add data to the table
+---Perform basic data operations of add edit delete sort search and filter.
+
+Extra - Te Reo vocab list
+
+('table','tepu'),
+('chair','tūru'),
+('window', 'matapihi'),
+('door','tatau'),
+('curtain','arai'),
+('house','whare'),
+('road','huarahi'),
+('car','waka'),
+('kitchen','kīhini'),
+('bedroom','whare moenga'),
+('bathroom','wharepaku'),
+('roof';'tuanui');
+
